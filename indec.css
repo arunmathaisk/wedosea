@@ -2,7 +2,7 @@ body{
     background-color: black;
     color: white !important;
 }
-#mySidebar>a{
+.acnav>a{
     color: white !important;
     font-size: 25px !important;
     padding: 0px 25px 0px 25px ;
