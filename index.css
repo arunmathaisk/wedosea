@@ -7,7 +7,7 @@ body{
     font-size: 25px !important;
     padding: 0px 25px 0px 25px ;
     position:relative;
-    left: 550px;
+    left: 500px;
     bottom: 120px;
 }
 #mySidebar>a:hover{
@@ -30,13 +30,16 @@ h3,h4{
 .openbtn{
     display: none;
 }
+button>a{
+    display: inline;
+}
 @media only screen and (max-width: 400px) {
     #mySidebar>a{
         display: none;
     }
     h3,h4{
         display:block;
-        font-size: 55px;
+        font-size: 30px;
     }
     h5{
         position: relative;
@@ -66,8 +69,7 @@ h3,h4{
         display: block;
         position: absolute;
         top:0px;
-        left:0px
-
+        left:0px;
     }
     .acnav>a{
         color: white !important;
@@ -75,8 +77,10 @@ h3,h4{
         font-size: 30px;
         position: relative;
         left:150px;
+        top:100px;
     }
     .des{
         font-size:30px;
     }
+    
 }
